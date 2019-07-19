@@ -37,12 +37,12 @@ class Squash(Melon):
 
     def __init__(self):
         """Create a Melon of Winter Squash type."""
-        self.super().__init__('Winter Squash')
+        super().__init__('Winter Squash')
 
 
     def prep(self):
         """Prep melon and paint green."""
-        self.super().prep()
+        super().prep()
         robots.painterbot.paint(self)
 
 
